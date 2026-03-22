@@ -1,0 +1,48 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="700" viewBox="0 0 1200 700" role="img" aria-labelledby="title desc">
+  <title id="title">Exemplo didatico de MCP com Cursor</title>
+  <desc id="desc">Diagrama mostrando o Cursor conectado a varios MCP Servers que, por sua vez, acessam diferentes servicos e bancos.</desc>
+  <rect width="1200" height="700" fill="#0a0a0a"/>
+
+  <g font-family="Arial, Helvetica, sans-serif">
+    <polygon points="150,250 210,210 270,250 250,320 170,320" fill="#999999"/>
+    <polygon points="150,250 210,210 210,290" fill="#5f5f5f"/>
+    <polygon points="210,210 270,250 210,290" fill="#efefef"/>
+    <polygon points="150,250 210,290 170,320" fill="#2f2f2f"/>
+    <polygon points="270,250 210,290 250,320" fill="#cfcfcf"/>
+    <text x="210" y="390" text-anchor="middle" fill="#ffffff" font-size="34" font-weight="400">Cursor</text>
+
+    <line x1="280" y1="290" x2="500" y2="145" stroke="#ffffff" stroke-width="5"/>
+    <line x1="280" y1="290" x2="500" y2="275" stroke="#ffffff" stroke-width="5"/>
+    <line x1="280" y1="290" x2="500" y2="405" stroke="#ffffff" stroke-width="5"/>
+    <line x1="280" y1="290" x2="500" y2="535" stroke="#ffffff" stroke-width="5"/>
+
+    <rect x="500" y="110" width="240" height="70" rx="14" fill="#f4f4f4"/>
+    <rect x="500" y="240" width="240" height="70" rx="14" fill="#f4f4f4"/>
+    <rect x="500" y="370" width="240" height="70" rx="14" fill="#f4f4f4"/>
+    <rect x="500" y="500" width="240" height="70" rx="14" fill="#f4f4f4"/>
+
+    <text x="620" y="154" text-anchor="middle" fill="#111111" font-size="18">MCP Server</text>
+    <text x="620" y="284" text-anchor="middle" fill="#111111" font-size="18">MCP Server</text>
+    <text x="620" y="414" text-anchor="middle" fill="#111111" font-size="18">MCP Server</text>
+    <text x="620" y="544" text-anchor="middle" fill="#111111" font-size="18">MCP Server</text>
+
+    <line x1="740" y1="145" x2="930" y2="145" stroke="#ffffff" stroke-width="5"/>
+    <line x1="740" y1="275" x2="930" y2="275" stroke="#ffffff" stroke-width="5"/>
+    <line x1="740" y1="405" x2="930" y2="405" stroke="#ffffff" stroke-width="5"/>
+    <line x1="740" y1="535" x2="930" y2="535" stroke="#ffffff" stroke-width="5"/>
+
+    <polygon points="930,145 916,135 916,155" fill="#ffffff"/>
+    <polygon points="930,275 916,265 916,285" fill="#ffffff"/>
+    <polygon points="930,405 916,395 916,415" fill="#ffffff"/>
+    <polygon points="930,535 916,525 916,545" fill="#ffffff"/>
+
+    <text x="1010" y="150" fill="#7fb3e6" font-size="34" font-weight="700">PostgreSQL</text>
+    <text x="1015" y="280" fill="#ffffff" font-size="34" font-weight="700">Figma</text>
+    <text x="1015" y="410" fill="#7a6cff" font-size="34" font-weight="700">Stripe</text>
+    <text x="1015" y="540" fill="#4fd08b" font-size="34" font-weight="700">Slack</text>
+
+    <text x="600" y="645" text-anchor="middle" fill="#d8d8d8" font-size="24">
+      O MCP permite que a IA converse com ferramentas e sistemas externos por um padrao comum
+    </text>
+  </g>
+</svg>
