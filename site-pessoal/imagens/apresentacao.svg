@@ -1,9 +1,0 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="800" height="500" viewBox="0 0 800 500">
-  <rect width="800" height="500" fill="#dff3ff"/>
-  <rect x="80" y="70" width="640" height="360" rx="26" fill="#0b4f6c"/>
-  <circle cx="240" cy="200" r="70" fill="#ffffff"/>
-  <rect x="340" y="150" width="250" height="24" rx="12" fill="#ffffff"/>
-  <rect x="340" y="205" width="180" height="20" rx="10" fill="#8ed1f0"/>
-  <rect x="170" y="310" width="460" height="22" rx="11" fill="#8ed1f0"/>
-  <text x="400" y="390" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="28" fill="#ffffff">Apresentacao do Site</text>
-</svg>
