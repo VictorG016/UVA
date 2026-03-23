@@ -3,23 +3,23 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Portfolio</title>
+    <title>Victor Gusmão - Portfólio</title>
     <link rel="stylesheet" href="css/estilo.css">
 </head>
 <body>
     <div class="topo">
         <div class="limite">
-            <h1>Portfolio e Projetos</h1>
-            <p>Espaco reservado para meus projetos pessoais.</p>
+            <h1>Portfólio</h1>
+            <p>Projeto profissional real com foco em backend, integração de sistemas e auditoria de dados fiscais.</p>
         </div>
     </div>
 
     <div class="menu">
         <div class="limite">
             <ul>
-                <li><a href="index.html">Inicio</a></li>
+                <li><a href="index.html">Início</a></li>
                 <li><a href="sobre.html">Sobre</a></li>
-                <li><a class="ativo" href="portfolio.html">Portfolio</a></li>
+                <li><a class="ativo" href="portfolio.html">Portfólio</a></li>
                 <li><a href="novidades.html">Novidades</a></li>
                 <li><a href="contato.html">Contato</a></li>
             </ul>
@@ -28,12 +28,156 @@
 
     <div class="conteudo">
         <div class="limite">
-            <div class="bloco">
-                <h2>Projetos pessoais</h2>
-                <img class="foto" src="imagens/projetos.svg" alt="Imagem da area de projetos">
-                <p>No momento, ainda nao possuo projetos pessoais organizados para apresentar nesta secao.</p>
-                <p>Esta pagina permanecerá como espaco reservado para futuros projetos, estudos praticos e aplicacoes desenvolvidas por iniciativa propria.</p>
+
+            <div class="bloco destaque">
+                <h2>Projeto em destaque</h2>
+                <p>
+                    Embora eu ainda não tenha projetos pessoais publicados, já participei de um projeto profissional
+                    relevante no ambiente corporativo, voltado à auditoria e validação de notas fiscais por meio
+                    de integração com o SERPRO.
+                </p>
+                <p>
+                    Nesta página apresento esse projeto de forma resumida, destacando seu objetivo, as principais
+                    funcionalidades e minha participação técnica, sem expor informações internas ou sensíveis da empresa.
+                </p>
             </div>
+
+            <div class="bloco">
+                <h2>Projeto Auditoria de Notas Fiscais com SERPRO</h2>
+                <p>
+                    O projeto teve como objetivo evoluir o serviço de consulta de notas fiscais, que antes validava
+                    apenas o status da nota, para uma solução mais completa de auditoria de dados fiscais.
+                </p>
+                <p>
+                    Com essa evolução, passou a ser possível validar campos importantes do documento fiscal,
+                    como CFOP, valor líquido, quantidade e data da DANFE, aumentando a confiabilidade das informações
+                    e reduzindo retrabalho em processos ligados ao negócio.
+                </p>
+            </div>
+
+            <div class="bloco duas-colunas">
+                <div class="coluna">
+                    <h2>Problema atendido</h2>
+                    <ul class="lista">
+                        <li>Validações anteriores eram limitadas ao status da nota fiscal.</li>
+                        <li>Havia necessidade de mais controle sobre divergências nos dados enviados.</li>
+                        <li>O processo exigia mais visibilidade, precisão e rastreabilidade.</li>
+                        <li>O projeto buscou fortalecer a governança e a auditoria dos dados fiscais.</li>
+                    </ul>
+                </div>
+
+                <div class="coluna direita">
+                    <h2>Objetivos da solução</h2>
+                    <ul class="lista">
+                        <li>Ampliar a auditoria de notas fiscais consultadas via SERPRO.</li>
+                        <li>Permitir validação de campos críticos do documento fiscal.</li>
+                        <li>Melhorar a confiabilidade dos dados utilizados pelo sistema.</li>
+                        <li>Oferecer mais controle operacional e apoio à tomada de decisão.</li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="bloco">
+                <h2>Minha participação no projeto</h2>
+                <div class="cartao">
+                    <p>
+                        Atuei no contexto de desenvolvimento backend e evolução da solução, contribuindo para
+                        a estruturação do serviço, integração entre sistemas e organização do fluxo de validação.
+                    </p>
+
+                    <ul class="lista">
+                        <li>Participação na evolução do serviço de consulta e auditoria.</li>
+                        <li>Atuação em backend com foco em estabilidade, manutenção e confiabilidade.</li>
+                        <li>Contribuição em integrações, regras de validação e tratamento de dados.</li>
+                        <li>Apoio técnico em funcionalidades ligadas à auditoria e visualização de informações.</li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="bloco">
+                <h2>Principais funcionalidades</h2>
+
+                <div class="cartao">
+                    <h3>Validação de dados fiscais</h3>
+                    <p>
+                        A solução passou a validar não apenas o status da nota fiscal, mas também campos importantes
+                        como CFOP, data da DANFE, valor líquido total, valor líquido dos produtos e quantidade divergente.
+                    </p>
+                </div>
+
+                <div class="cartao">
+                    <h3>Lista de auditoria</h3>
+                    <p>
+                        Funcionalidade que permite visualizar e validar as DANFEs consultadas por meio da integração,
+                        facilitando o acompanhamento do processo de auditoria.
+                    </p>
+                </div>
+
+                <div class="cartao">
+                    <h3>Detalhes da auditoria</h3>
+                    <p>
+                        Permite analisar os dados validados em cada nota fiscal, mostrando com mais clareza
+                        os campos auditados e possíveis divergências identificadas.
+                    </p>
+                </div>
+
+                <div class="cartao">
+                    <h3>Extrato de utilização</h3>
+                    <p>
+                        Recurso voltado à geração de extratos com as DANFEs consultadas em determinado período,
+                        oferecendo histórico e apoio ao controle operacional.
+                    </p>
+                </div>
+
+                <div class="cartao">
+                    <h3>Dashboard</h3>
+                    <p>
+                        Painel com indicadores e visão consolidada do serviço, permitindo acompanhamento
+                        do volume de consultas, desempenho e informações relevantes em tempo real.
+                    </p>
+                </div>
+            </div>
+
+            <div class="bloco">
+                <h2>Tecnologias e conceitos envolvidos</h2>
+
+                <div class="cartao">
+                    <h3>Backend e integração</h3>
+                    <p>
+                        O projeto envolveu desenvolvimento backend, integração com serviço externo e tratamento
+                        de respostas para validação de dados fiscais dentro do fluxo de negócio.
+                    </p>
+                </div>
+
+                <div class="cartao">
+                    <h3>Arquitetura em microserviços</h3>
+                    <p>
+                        A solução incluiu um módulo interno de validação reutilizável, com separação de responsabilidades
+                        e melhor organização para manutenção e evolução do serviço.
+                    </p>
+                </div>
+
+                <div class="cartao">
+                    <h3>Regra de negócio e confiabilidade</h3>
+                    <p>
+                        Além da implementação técnica, esse projeto exigiu atenção à consistência dos dados,
+                        auditoria de informações e alinhamento com processos corporativos ligados a documentos fiscais.
+                    </p>
+                </div>
+            </div>
+
+            <div class="bloco">
+                <h2>Importância desse projeto na minha trajetória</h2>
+                <p>
+                    Esse projeto representa bem minha atuação profissional: desenvolvimento backend,
+                    integração entre sistemas, análise de regras de negócio e participação em soluções corporativas reais.
+                </p>
+                <p>
+                    Mesmo com uma apresentação resumida, ele demonstra experiência prática com sistemas que exigem
+                    responsabilidade técnica, confiabilidade de dados e evolução contínua de funcionalidades.
+                </p>
+            </div>
+
         </div>
     </div>
 
